@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCT</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+    <a href="index.html" class="brand-link" data-category="brand">
+        <div class="brand">INVERCARO</div>
+    </a>
+    <nav>
+        <ul>
+            <li><a href="index.html?category=all" data-category="all">ALL</a></li>
+            <li><a href="index.html?category=top" data-category="top">TOP</a></li>
+            <li><a href="index.html?category=bottom" data-category="bottom">BOTTOM</a></li>
+            <li><a href="index.html?category=headwear" data-category="headwear">HEADWEAR</a></li>
+            <li><a href="index.html?category=jewelry" data-category="jewelry">JEWELRY</a></li>
+        </ul>
+    </nav>
+    <a href="cart.html" class="cart-button">
+        <img src="assets/icons/cart.svg" class="icon">
+        <span class="cart-count">0</span>
+    </a>
+</header>
+
+<div class="product-page" id="product-details"></div>
+
+<script src="js/header.js"></script>
+<script src="js/data/products.js"></script>
+<script src="js/product.js"></script>
+</body>
+</html>
+
+

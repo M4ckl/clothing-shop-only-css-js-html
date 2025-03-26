@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVER CARO</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/components.css">
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="brand-link" data-category="brand">
+        <div class="brand">INVERCARO</div>
+    </a>
+    <nav>
+        <ul>
+            <li><a href="#" data-category="all">ALL</a></li>
+            <li><a href="#" data-category="top">TOP</a></li>
+            <li><a href="#" data-category="bottom">BOTTOM</a></li>
+            <li><a href="#" data-category="headwear">HEADWEAR</a></li>
+            <li><a href="#" data-category="jewelry">JEWELRY</a></li>
+        </ul>
+    </nav>
+    <a href="cart.html" class="cart-button">
+        <img src="assets/icons/cart.svg" class="icon">
+        <span class="cart-count">0</span>
+    </a>
+</header>
+
+<div id="filter-section">
+    <div class="filter-buttons">
+        <span class="filter-btn active" data-gender="all">A</span>
+        <span class="filter-btn" data-gender="men">M</span>
+        <span class="filter-btn" data-gender="women">W</span>
+    </div>
+    <span id="product-count">0 ITEMS</span>
+</div>
+
+<div id="main-content">
+    <section id="main-section">
+        <div id="about-brand">
+            <div class="main-grid-about-brand">
+                <div class="main-grid-left-part">
+                    <p class="main-grid-left-part-text-about">ACCESSORIES</p>
+                    <a href="index.html?category=jewelry">
+                        <img src="assets/img/accessories.svg" class="main-grid-left-part-image" alt="Left Part Image">
+                    </a>
+                </div>
+                <div class="main-grid-right-part">
+                    <div class="main-grid-right-part-box">
+                        <p class="main-grid-right-part-box-text"><span>Minimalism</span> is not just a trend, it <span>is</span> a conscious <span>choice</span>.<br>
+                            <span>Clean</span> lines, <span>perfect</span> cut and only what <span>is</span> really <span>important</span>.</p>
+                    </div>
+                    <div class="main-grid-right-part-slider">
+                        <a href="index.html?category=top">
+                            <img src="assets/img/img1.png" alt="Image 1" class="slider-image" loading="lazy">
+                        </a>
+                        <a href="index.html?category=bottom">
+                            <img src="assets/img/img2.png" alt="Image 2" class="slider-image" loading="lazy">
+                        </a>
+                        <a href="https://www.vogue.com/fashion-shows/designer/bottega-veneta">
+                            <img src="assets/img/img3.png" alt="Image 3" class="slider-image" loading="lazy">
+                        </a>
+                        <div class="slider-dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="link-of-our-brand-box">
+            <p class="link-of-our-brand-box-text">Join our brand</p>
+            <div class="input-container">
+                <input type="text" placeholder="Email" maxlength="30" class="custom-input">
+            </div>
+        </div>
+    </section>
+</div>
+
+<script src="js/header.js"></script>
+<script src="js/data/products.js"></script>
+<script src="js/catalog.js"></script>
+<script src="js/script.js"></script>
+<script src="js/navigation.js"></script>
+
+</body>
+</html>
+

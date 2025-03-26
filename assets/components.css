@@ -1,0 +1,89 @@
+/*SLIDER*/
+.main-grid-right-part-slider{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.slider-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    object-fit: cover;
+    filter: brightness(100%);
+    transition: opacity 1s ease, filter 0.3s ease;
+    pointer-events: none;
+}
+
+.slider-image.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.slider-image.active:hover {
+    filter: brightness(70%);
+}
+
+.slider-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+
+.dot {
+    display: inline-block;
+    width: 20px;
+    height: 4px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: rgba(255, 255, 255, 1);
+}
+/*SLIDER*/
+
+/*FILTER*/
+#filter-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Размещает элементы по краям */
+    align-items: center;
+    padding: 10px 80px;
+    background: white;
+    width: 100%;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.filter-btn {
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: font-weight 0.3s ease;
+    text-decoration: none;
+}
+
+.filter-btn.active {
+    font-weight: 350;
+}
+
+#product-count {
+    font-size: 16px;
+    font-weight: 300;
+}
+/*FILTER*/
