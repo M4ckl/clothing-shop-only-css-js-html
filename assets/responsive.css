@@ -1,0 +1,139 @@
+@media (max-width: 1200px) {
+    .product-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+        padding: 10px 20px 0;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cart-button {
+        margin-top: 10px;
+    }
+
+    .main-grid-about-brand {
+        grid-template-columns: 1fr;
+    }
+
+    .main-grid-right-part {
+        grid-template-rows: auto;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .product-page {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-page img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .product-details {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #filter-section {
+        flex-direction: column;
+        padding: 10px 40px;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    .main-grid-left-part-text-about {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .link-of-our-brand-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .input-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-grid-right-part-slider {
+        height: auto;
+    }
+
+    .slider-image {
+        position: relative;
+        height: auto;
+    }
+
+    .slider-dots {
+        bottom: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-page img {
+        max-width: 100%;
+    }
+
+    .add-to-cart {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .cart-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cart-item img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .back-button-wrapper {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .cart-container-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .filter-buttons {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .dot {
+        width: 10px;
+        height: 3px;
+    }
+}

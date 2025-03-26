@@ -401,17 +401,17 @@ header nav ul li a.active {
 
 .cart-container-header {
     display: flex;
-    justify-content: center; /* Центрируем все содержимое по горизонтали */
-    align-items: center; /* Выравнивание по вертикали */
-    position: relative; /* Для позиционирования кнопки */
+    justify-content: center;
+    align-items: center;
+    position: relative;
     margin: 20px;
 }
 
 .back-button-wrapper {
-    position: absolute; /* Абсолютное позиционирование для кнопки */
-    left: 20px; /* Отступ слева */
+    position: absolute;
+    left: 20px;
 }
 
 .cart-h {
-    margin: 0; /* Убираем отступы */
+    margin: 0;
 }
