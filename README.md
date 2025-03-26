@@ -1,7 +1,7 @@
 # clothing-shop-only-css-js-html
 <strong>The task</strong> is to create a fully functional clothing website without using third-party frameworks and libraries
 
-<strong style="color: red;">!The photos and design inspiration were taken from the Bottega Veneta brand website solely for practical and educational purposes!</strong>
+<p style="color: red;"><strong>!The photos and design inspiration were taken from the Bottega Veneta brand website solely for practical and educational purposes!</strong></p>
 
 <strong>MAIN FUNCTIONALITY:</strong>
 
